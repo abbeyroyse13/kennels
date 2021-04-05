@@ -1,10 +1,10 @@
 import React from "react"
 import { Route } from "react-router-dom"
-import { AnimalCard } from "./animal/AnimalCard"
 import { LocationCard } from "./locations/LocationCard"
 import { CustomerCard } from "./customers/CustomerCard"
 import { EmployeeCard } from "./employees/EmployeeCard"
 import { Home } from "./Home"
+import { AnimalList } from "./animal/AnimalList"
 
 export const ApplicationViews = () => {
     return (
@@ -14,7 +14,7 @@ export const ApplicationViews = () => {
             </Route>
 
             <Route path="/animals">
-                <AnimalCard />
+                <AnimalList />
             </Route>
 
             <Route path="/locations">
