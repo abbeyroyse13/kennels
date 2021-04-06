@@ -1,9 +1,17 @@
 import React from "react"
 import "./Employee.css"
 
-export const EmployeeCard = ({ name, address }) => (
-    <section className="employee">
-        <h3 className="employee__name">{name}</h3>
-        <div className="employee__address">Address: {address}</div>
-    </section>
-)
+export const EmployeeCard = ({ employee, handleDeleteEmployee }) => {
+    return (
+      <div className="card">
+        <div className="card-content">
+          <h3>Name: <span className="card-petname">
+            {employee.name}
+          </span></h3>
+          <p>Address: {employee.address}</p>
+          <button type="button" onClick={() => handleDeleteEmployee(employee.id)}>Discharge</button>
+        </div>
+      </div>
+    );
+  }
+  // the class names are the same as the animal.css, that's why employee.css is overridden

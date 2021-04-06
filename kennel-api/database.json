@@ -1,40 +1,28 @@
 {
-  "animals": [
-    {
-      "id": 1,
-      "name": "Macy",
-      "breed": "Dachshund"
-    },
-    {
-      "id": 2,
-      "name": "Bly",
-      "breed": "German Shepherd"
-    }
-  ],
-  "customers": [
-    {
-      "id": 1,
-      "name": "Evan Martinez",
-      "address": "7002 New York, NY"
-    }
-  ],
-  "employees": [
-    {
-      "id": 1,
-      "name": "Danny Teo",
-      "address": "123 Singapore Someplace"
-    }
-  ],
-  "locations": [
-    {
-      "id": 1,
-      "name": "Nashville North",
-      "address": "8422 Johnson Pike"
-    },
-    {
-      "id": 2,
-      "name": "Nashville South",
-      "address": "209 Emory Drive"
-    }
-  ]
+    "animals": [
+        { "id": 1, "name": "Macy", "breed": "Dachshund" },
+        { "id": 2, "name": "Bly", "breed": "German Shepherd" },
+        { "id": 3, "name": "Reichu", "breed": "Pitbull" }
+    ],
+    "customers": [{
+        "id": 1,
+        "name": "Evan Martinez",
+        "address": "7002 New York, NY"
+    }],
+    "employees": [{
+        "id": 1,
+        "name": "Danny Teo",
+        "address": "123 Singapore Someplace"
+    }],
+    "locations": [{
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        }
+    ]
 }
