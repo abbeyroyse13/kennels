@@ -2,23 +2,17 @@
     "animals": [{
             "id": 1,
             "name": "Macy",
-            "breed": "Dachshund",
-            "location": "Nashville North",
-            "customer": "Abbey Royse"
+            "breed": "Dachshund"
         },
         {
             "id": 2,
             "name": "Bly",
-            "breed": "German Shepherd",
-            "location": "Nashville North",
-            "customer": "Evan Martinez"
+            "breed": "German Shepherd"
         },
         {
             "id": 3,
             "name": "Reichu",
-            "breed": "Pitbull",
-            "location": "Nashville North",
-            "customer": "Danny Teo"
+            "breed": "Pitbull"
         }
     ],
     "customers": [{

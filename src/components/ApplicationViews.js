@@ -6,10 +6,11 @@ import { EmployeeList } from "./employees/EmployeeList"
 import { Home } from "./Home"
 import { AnimalList } from "./animal/AnimalList"
 import { AnimalDetail } from "./animal/AnimalDetail"
+import { AnimalForm } from "./animal/AnimalForm"
 
 export const ApplicationViews = () => {
     return (
-        <> 
+        <>
             <Route exact path="/">
                 <Home />
             </Route>
@@ -19,18 +20,9 @@ export const ApplicationViews = () => {
                 <AnimalList />
             </Route>
 
-            <Route path="/animals/:animalId(\d+)">
-                <AnimalDetail />
+            <Route path="/animals/create">
+                <AnimalForm />
             </Route>
-
-            {/*
-                This is a new route to handle a URL with the following pattern:
-                http://localhost:3000/animals/1
-
-                It will not handle the following URL because the `(\d+)`
-                matches only numbers after the final slash in the URL
-                http://localhost:3000/animals/jack
-            */}
 
             <Route path="/locations">
                 <LocationList />
