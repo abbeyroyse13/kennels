@@ -1,8 +1,25 @@
 {
-    "animals": [
-        { "id": 1, "name": "Macy", "breed": "Dachshund" },
-        { "id": 2, "name": "Bly", "breed": "German Shepherd" },
-        { "id": 3, "name": "Reichu", "breed": "Pitbull" }
+    "animals": [{
+            "id": 1,
+            "name": "Macy",
+            "breed": "Dachshund",
+            "location": "Nashville North",
+            "customer": "Abbey Royse"
+        },
+        {
+            "id": 2,
+            "name": "Bly",
+            "breed": "German Shepherd",
+            "location": "Nashville North",
+            "customer": "Evan Martinez"
+        },
+        {
+            "id": 3,
+            "name": "Reichu",
+            "breed": "Pitbull",
+            "location": "Nashville North",
+            "customer": "Danny Teo"
+        }
     ],
     "customers": [{
         "id": 1,
@@ -15,14 +32,8 @@
         "address": "123 Singapore Someplace"
     }],
     "locations": [{
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+        "id": 1,
+        "name": "Nashville North",
+        "address": "8422 Johnson Pike"
+    }]
 }
