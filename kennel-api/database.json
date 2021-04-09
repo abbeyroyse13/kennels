@@ -1,74 +1,71 @@
 {
-  "animals": [
-    {
-      "id": 1,
-      "name": "Macy",
-      "breed": "Dachshund",
-      "locationId": 1,
-      "customerId": 2
-    },
-    {
-      "id": 2,
-      "name": "Bly",
-      "breed": "German Shepherd",
-      "locationId": 1,
-      "customerId": 1
-    },
-    {
-      "id": 3,
-      "name": "Reichu",
-      "breed": "Pitbull",
-      "locationId": 1,
-      "customerId": 3
-    }
-  ],
-  "customers": [
-    {
-      "id": 1,
-      "name": "Evan Martinez",
-      "address": "7002 New York, NY",
-      "email": "evan@em.com"
-    },
-    {
-      "id": 2,
-      "name": "Abbey Royse",
-      "address": "7002 Nashville",
-      "email": "abbey@ar.com"
-    },
-    {
-      "id": 3,
-      "name": "Danny Teo",
-      "address": "123 Singapore Someplace",
-      "email": "danny@dt.com"
-    },
-    {
-      "name": "Dirk Gently",
-      "address": "Someplace Somewhere",
-      "id": 4
-    }
-  ],
-  "employees": [
-    {
-      "id": 1,
-      "name": "Marshall Serrano",
-      "address": "123 Dickson Co"
-    },
-    {
-      "name": "Todd Brotzman",
-      "address": "Someplace Somewhere",
-      "id": 2
-    }
-  ],
-  "locations": [
-    {
-      "id": 1,
-      "name": "Nashville North",
-      "address": "8422 Johnson Pike"
-    },
-    {
-      "name": "Little Hope",
-      "address": "Someplace Somewhere",
-      "id": 2
-    }
-  ]
+    "animals": [{
+            "id": 1,
+            "name": "Macy",
+            "breed": "Dachshund",
+            "locationId": 1,
+            "customerId": 2
+        },
+        {
+            "id": 2,
+            "name": "Bly",
+            "breed": "German Shepherd",
+            "locationId": 1,
+            "customerId": 1
+        },
+        {
+            "id": 3,
+            "name": "Reichu",
+            "breed": "Pitbull",
+            "locationId": 1,
+            "customerId": 3
+        }
+    ],
+    "customers": [{
+            "id": 1,
+            "name": "Evan Martinez",
+            "address": "7002 New York, NY",
+            "email": "evan@em.com"
+        },
+        {
+            "id": 2,
+            "name": "Abbey Royse",
+            "address": "7002 Nashville",
+            "email": "abbey@ar.com"
+        },
+        {
+            "id": 3,
+            "name": "Danny Teo",
+            "address": "123 Singapore Someplace",
+            "email": "danny@dt.com"
+        },
+        {
+            "name": "Dirk Gently",
+            "address": "Someplace Somewhere",
+            "id": 4,
+            "email": "dirk@dg.com"
+        }
+    ],
+    "employees": [{
+            "id": 1,
+            "name": "Marshall Serrano",
+            "address": "123 Dickson Co"
+        },
+        {
+            "name": "Todd Brotzman",
+            "address": "Someplace Somewhere",
+            "id": 2
+        }
+    ],
+    "locations": [{
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "name": "Little Hope",
+            "address": "Someplace Somewhere",
+            "id": 2
+        }
+    ]
 }
