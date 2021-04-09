@@ -40,6 +40,11 @@
       "name": "Danny Teo",
       "address": "123 Singapore Someplace",
       "email": "danny@dt.com"
+    },
+    {
+      "name": "Dirk Gently",
+      "address": "Someplace Somewhere",
+      "id": 4
     }
   ],
   "employees": [
